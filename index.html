@@ -1,55 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nahel Delille - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-    <h1>Nahel Delille</h1>
-    <p>Étudiant en BUT2</p>
-</header>
 
-<section id="about">
-    <h2>À propos de moi</h2>
-    <p> bonjour c'est nahel</p>
-</section>
+    <header class="hero">
+        <h1>Nahel Delille</h1>
+        <p>Étudiant en deuxième année de BUT Informatique</p>
+        <div class="hero-links">
+            <a href="Nahel_Delille_CV.pdf" class="btn">Télécharger mon CV</a>
+            <a href="https://github.com/NahelDE" target="_blank" class="btn icon-text-btn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                <span>Mon GitHub</span>
+            </a>
 
-<section id="skills">
-    <h2>Compétences</h2>
-        <p>HTML</p>
-            <div class="container">
-                <div class="skills html">95%</div>
+            <a href="https://www.linkedin.com/in/nahel-delille-7a0259386/" target="_blank" class="btn icon-text-btn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                    alt="LinkedIn">
+                <span>Mon LinkedIn</span>
+            </a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Je suis Nahel Delille, étudiant en deuxième année de BUT Informatique à l’IUT de Lens.
+            Intéressé par le développement sous toutes ses formes, j’aime explorer différents langages et environnements
+            techniques tels que Java, PHP, JavaScript, SQL, HTML/CSS et PostgreSQL.
+            Mon parcours m’a permis d’acquérir une base solide en programmation, développement web et gestion de bases
+            de données.
+            Sérieux, curieux et motivé, je cherche à mettre mes compétences au service de projets concrets qui me
+            permettront de progresser et de gagner en expérience professionnelle.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills-icons">
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <span>HTML</span>
             </div>
-        <p>CSS</p>
-        <div class="container">
-            <div class="skills css">80%</div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                <span>Python</span>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                <span>PHP</span>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                    alt="PostgreSQL">
+                <span>PostgreSQL</span>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                <span>Git</span>
+            </div>
         </div>
+    </section>
 
-        <p>JavaScript</p>
-        <div class="container">
-            <div class="skills js">65%</div>
+
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Calendrier en Java</h3>
+                <p>Développement d’un calendrier en Java dans le cadre d’une situation d’apprentissage évaluée.</p>
+                <a href="#" target="_blank">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <h3>Jeu d’échec en Java</h3>
+                <p>Création d’un jeu d’échec en Java dans le cadre d’une situation d’apprentissage évaluée.</p>
+                <a href="#" target="_blank">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <h3>Jeu roguelike 2D</h3>
+                <p>Développement en cours d’un jeu roguelike 2D en Java.</p>
+                <a href="#" target="_blank">Voir le projet</a>
+            </div>
         </div>
+    </section>
 
-        <p>PHP</p>
-        <div class="container">
-            <div class="skills php">60%</div>
-        </div>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projets</h2>
-    <div class="project-card">
-        <h3>Nom du projet</h3>
-        <p>Description courte + lien</p>
-    </div>
-</section>
-
-<footer>
-    <p>© 2025 Nahel Delille</p>
-</footer>
+    <footer>
+        <p>© 2025 Nahel Delille</p>
+    </footer>
 </body>
+
 </html>
