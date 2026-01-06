@@ -5,108 +5,299 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nahel Delille - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header class="hero">
-        <h1>Nahel Delille</h1>
-        <p>Étudiant en deuxième année de BUT Informatique</p>
-        <div class="hero-links">
-            <a href="Nahel_Delille_CV.pdf" class="btn">Télécharger mon CV</a>
-            <a href="https://github.com/NahelDE" target="_blank" class="btn icon-text-btn">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-                <span>Mon GitHub</span>
-            </a>
+<nav class="navbar">
+    <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+    </ul>
+</nav>
 
-            <a href="https://www.linkedin.com/in/nahel-delille-7a0259386/" target="_blank" class="btn icon-text-btn">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                    alt="LinkedIn">
-                <span>Mon LinkedIn</span>
-            </a>
-        </div>
-    </header>
+<header class="hero">
+    <h1>Nahel Delille</h1>
+    <p>Étudiant en deuxième année de BUT Informatique</p>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#projects">Projets</a></li>
-        </ul>
-    </nav>
+    <div class="hero-links">
+        <a href="assets/pdf/NahelDELILLE_CV_FR.pdf" class="btn" aria-label="Télécharger mon CV">Télécharger mon CV</a>
 
+        <a href="https://github.com/NahelDE" target="_blank" class="btn icon-text-btn" aria-label="Lien vers GitHub">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+            <span>GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/nahel-delille-7a0259386/" target="_blank"
+           class="btn icon-text-btn" aria-label="Lien vers LinkedIn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+            <span>LinkedIn</span>
+        </a>
+    </div>
+</header>
+
+<main>
     <section id="about">
         <h2>À propos de moi</h2>
         <p>
             Je suis Nahel Delille, étudiant en deuxième année de BUT Informatique à l’IUT de Lens.
-            Intéressé par le développement sous toutes ses formes, j’aime explorer différents langages et environnements
-            techniques tels que Java, PHP, JavaScript, SQL, HTML/CSS et PostgreSQL.
-            Mon parcours m’a permis d’acquérir une base solide en programmation, développement web et gestion de bases
-            de données.
-            Sérieux, curieux et motivé, je cherche à mettre mes compétences au service de projets concrets qui me
-            permettront de progresser et de gagner en expérience professionnelle.
+            Passionné par le développement sous toutes ses formes, j’explore différents langages
+            et environnements techniques tels que Java, PHP, JavaScript, SQL et HTML/CSS.
+            Sérieux, curieux et motivé, je souhaite participer à des projets concrets afin
+            d’approfondir mes compétences et acquérir une expérience professionnelle solide.
         </p>
     </section>
 
     <section id="skills">
         <h2>Compétences</h2>
         <div class="skills-icons">
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-                <span>HTML</span>
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-                <span>CSS</span>
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-                <span>Python</span>
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
-                <span>Java</span>
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
-                <span>PHP</span>
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                    alt="PostgreSQL">
-                <span>PostgreSQL</span>
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-                <span>Git</span>
-            </div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"><span>PHP</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"><span>PostgreSQL</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></div>
         </div>
     </section>
-
 
     <section id="projects">
-        <h2>Projets</h2>
+        <!-- Projets de l'IUT -->
+        <h2 class="projects-category">Projets IUT</h2>
         <div class="projects-grid">
-            <div class="project-card">
-                <h3>Calendrier en Java</h3>
-                <p>Développement d’un calendrier en Java dans le cadre d’une situation d’apprentissage évaluée.</p>
+
+            <div class="project-card" data-modal="modal-motown">
+                <h4>Motown Avenue</h4>
+                <p>Site web développé en équipe avec 4 étudiants MMI dans le cadre du Marathon du Web.</p>
+                <img src="assets/images/motown/homepage.png" alt="Aperçu de la homepage Motown Avenue" class="project-thumb">
             </div>
-            <div class="project-card">
-                <h3>Jeu d’échec en Java</h3>
-                <p>Création d’un jeu d’échec en Java dans le cadre d’une situation d’apprentissage évaluée.</p>
+
+            <div class="project-card" data-modal="modal-soulmates">
+                <h4>Soûl-Mates</h4>
+                <p>Site web de quizz réalisé en équipe de 4 dans le cadre d'un projet de cours.</p>
+                <img src="assets/images/soul-mates/homepage.png" alt="Aperçu de la homepage MSI Soûl-Mates" class="project-thumb">
             </div>
-            <div class="project-card">
-                <h3>Jeu roguelike 2D</h3>
-                <p>Développement en cours d’un jeu roguelike 2D en Java.</p>
-                <a href="https://github.com/NahelDE/rogueabyss" target="_blank">Voir le projet</a>
+
+            <div class="project-card" data-modal="modal-pacman">
+                <h4>Pacman Java</h4>
+                <p>Jeu Pacman développé en groupe de 4 étudiants dans le cadre d'un projet IUT, entièrement en Java.</p>
+                <img src="assets/images/pacman/homepage.png" alt="Aperçu de la homepage Pacman" class="project-thumb">
             </div>
+
+            <div class="project-card" data-modal="modal-lensymphony">
+                <h4>Lensymphony</h4>
+                <p>Synthétiseur de musique développé en Java avec site web associé pour générer de la musique en ligne. Projet en équipe de 4.</p>
+                <img src="assets/images/lensymphony/homepage.png" alt="Aperçu de la homepage Web Lensymphony" class="project-thumb">
+            </div>
+
+
+        </div>
+
+        <br>
+
+        <!-- Projets personnels -->
+        <h2 class="projects-category">Projets personnels</h2>
+        <div class="projects-grid">
+            <!-- Projets personnels à ajouter ici -->
         </div>
     </section>
 
-    <footer>
-        <p>© 2025 Nahel Delille</p>
-    </footer>
-</body>
+</main>
 
+<footer>
+    <div class="footer-container">
+        <div class="footer-contact">
+            <a href="mailto:nahel.delille1507@gmail.com" class="contact-link mail-icon">
+                <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/mail.svg" alt="Email" class="contact-icon">
+                <span>nahel.delille1507@gmail.com</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nahel-delille-7a0259386/" target="_blank" class="contact-link">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="contact-icon">
+                <span>Mon LinkedIn</span>
+            </a>
+
+            <a href="tel:+33788250329" class="contact-link phone-icon">
+                <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/phone.svg" alt="Téléphone" class="contact-icon">
+                <span>+33 7 88 25 03 29</span>
+            </a>
+        </div>
+
+        <div class="footer-btn">
+            <button class="btn" id="openContactForm">Me contacter</button>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Nahel Delille</p>
+    </div>
+</footer>
+
+
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <h3 class="modal-title">Me contacter</h3>
+
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+
+            <div class="modal-btn-wrapper">
+                <button type="submit" class="btn">Envoyer</button>
+            </div>
+        </form>
+
+        <p id="contactStatus" class="status-msg"></p>
+    </div>
+</div>
+
+<div id="modal-motown" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+        <h3>Motown Avenue</h3>
+        <p>
+            Participer au Marathon du Web avec Motown Avenue a été une expérience inoubliable.
+            Travailler en équipe avec les étudiants de MMI m’a permis de découvrir de nouvelles perspectives
+            sur le design et le développement web, d’échanger des idées créatives et de progresser rapidement
+            dans un cadre collaboratif. Cette expérience enrichissante m’a appris à gérer un projet en temps limité,
+            tout en alliant technique et créativité. Ce projet restera un souvenir marquant de mon parcours.
+        </p>
+
+        <p><strong>Compétences :</strong> HTML, PHP, Blade, Git</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/motown/homepage.png" alt="Motown Avenue Homepage" class="project-image">
+                <p>Page d'accueil du site, interface principale visible pour les utilisateurs.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/motown/article.png" alt="Aperçu d'un article" class="project-image">
+                <p>Aperçu d'un article publié.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/motown/code.png" alt="Extrait du code Motown Avenue" class="project-image">
+                <p>Extrait du code PHP de la fonction <code>accueil()</code> qui récupère les articles pour la page d'accueil.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/motown-avenue" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
+<div id="modal-soulmates" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+        <h3>Soûl-Mates</h3>
+        <p>
+            Le but de ce projet était de créer un quizz permettant de deviner les ingrédients d'un cocktail.
+            Nous avons utilisé un workflow "developer branch" : chacun travaillait sur sa branche
+            et fusionnait sur la branche dev après validation. Le projet a été réalisé avec Flask et Jinja2,
+            intégrant une API et des fonctionnalités collaboratives. J’ai beaucoup progressé en gestion de projet,
+            c’était la première fois que j’utilisais la méthode agile.
+            De plus, j’étais Scrum Master et avais donc la responsabilité du projet. Ce fut une expérience très enrichissante.
+        </p>
+
+        <p><strong>Compétences :</strong> Python, Flask, Jinja2, API, Git</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/soul-mates/homepage.png" alt="MSI Soûl-Mates Homepage" class="project-image">
+                <p>Page d'accueil du quizz, interface principale visible pour les utilisateurs.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/soul-mates/cocktail.png" alt="Aperçu du quiz MSI Soûl-Mates" class="project-image">
+                <p>Aperçu du quiz où l'utilisateur doit deviner le cocktail.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/soul-mates/code.png" alt="Extrait du code MSI Soûl-Mates" class="project-image">
+                <p>Extrait de la fonction <code>save_score_and_redirect(name_form)</code> qui enregistre le score dans la BDD et redirige.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/soul-mates" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
+<div id="modal-pacman" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+        <h3>Pacman Java</h3>
+        <p>
+            Ce projet était un défi amusant et formateur : recréer le célèbre jeu Pacman de A à Z en Java,
+            en utilisant JavaFX pour l'interface graphique et Gradle pour la gestion du projet.
+            Travailler à 4 nous a permis de collaborer efficacement tout en mettant en pratique des
+            patrons de conception tels que Visitor, State et Composite. Le projet était long, mais très enrichissant,
+            car nous avons presque tout réalisé nous-mêmes, de la création de la map à la gestion du gameplay.
+        </p>
+
+        <p><strong>Compétences :</strong> Java, JavaFX, Gradle, Git</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/pacman/homepage.png" alt="Pacman Homepage" class="project-image">
+                <p>Page d'accueil du jeu, interface principale visible avant de lancer la partie.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/pacman/gaming.png" alt="Pacman Gameplay" class="project-image">
+                <p>Exemple de gameplay, affichage du joueur et des fantômes en action.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/pacman/code.png" alt="Extrait du code Pacman" class="project-image">
+                <p>Extrait de la fonction <code>createMap()</code> qui génère la map du jeu avec des murs.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/pacman-java" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
+<div id="modal-lensymphony" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+        <h3>Lensymphony & Web Lensymphony</h3>
+        <p>
+            Lensymphony est un projet ambitieux et créatif consistant à développer un synthétiseur de musique en Java,
+            capable d'imiter différents instruments grâce à des formules mathématiques et des patrons de conception.
+            Nous avons codé de nombreux instruments, géré plusieurs portées simultanées et lu des partitions XML
+            pour reproduire des morceaux complexes.
+        </p>
+
+        <p>
+            Le projet est double : Lensymphony, le synthétiseur Java, et Web Lensymphony, un site web en PHP/Blade/HTML
+            qui permet de générer et d’écouter de la musique via le synthétiseur. Ce mélange de backend, frontend et
+            programmation Java a rendu le projet à la fois stimulant et très formateur.
+        </p>
+
+        <p><strong>Compétences :</strong> Java, Gradle, PHP, Blade, HTML, Git</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/lensymphony/homepage.png" alt="Web Lensymphony Homepage" class="project-image">
+                <p>Page d'accueil du site, permettant d’accéder aux fonctionnalités du synthétiseur.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/lensymphony/partition.png" alt="Web Lensymphony Partition" class="project-image">
+                <p>Page affichant les partitions XML pour la lecture et la génération musicale.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/images/lensymphony/kickdrum.png" alt="Fonction Kickdrum Lensymphony" class="project-image">
+                <p>Extrait de la fonction <code>synthesize()</code> qui génère le son d’un kickdrum, imitant l’instrument en Java.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/lensymphony" target="_blank" class="btn">Voir Synthétiseur sur GitHub</a>
+        <a href="https://github.com/NahelDE/web-lensymphony" target="_blank" class="btn">Voir Site Web sur GitHub</a>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
 </html>
