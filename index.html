@@ -91,16 +91,44 @@
                 <p>Synthétiseur de musique développé en Java avec site web associé pour générer de la musique en ligne. Projet en équipe de 4.</p>
                 <img src="assets/images/lensymphony/homepage.png" alt="Aperçu de la homepage Web Lensymphony" class="project-thumb">
             </div>
-
-
         </div>
-
         <br>
-
         <!-- Projets personnels -->
         <h2 class="projects-category">Projets personnels</h2>
         <div class="projects-grid">
-            <!-- Projets personnels à ajouter ici -->
+            <div class="project-card" data-modal="modal-casino">
+                <h4>Casino JavaFX</h4>
+                <p>Application de casino en JavaFX avec Blackjack et Pile ou Face, développée en solo.</p>
+                <img src="assets/images/casino/menulogin.png"
+                     alt="Menu de connexion du Casino JavaFX"
+                     class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-rogueabyss">
+                <h4>RogueAbyss</h4>
+                <p>Roguelike 2D en Java Swing (en cours).</p>
+                <img src="assets/images/rogueabyss/map.png"
+                     alt="Aperçu de la map du RogueAbyss"
+                     class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-currency">
+                <h4>Simple Currency Exchange</h4>
+                <p>Application web Flask pour convertir des montants d’une devise à une autre via une API (en cours).</p>
+                <img src="assets/images/currency/example.png"
+                     alt="Exemple de conversion de devises"
+                     class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-portfolio">
+                <h4>Portfolio Personnel</h4>
+                <p>Mon portfolio web développé avec HTML, CSS et JavaScript.</p>
+                <img src="assets/images/portfolio/hautdepage.png"
+                     alt="Haut de la page du portfolio"
+                     class="project-thumb">
+            </div>
+
+
         </div>
     </section>
 
@@ -294,6 +322,193 @@
         <a href="https://github.com/NahelDE/web-lensymphony" target="_blank" class="btn">Voir Site Web sur GitHub</a>
     </div>
 </div>
+
+<div id="modal-casino" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+
+        <h3>Casino JavaFX</h3>
+
+        <p>
+            Ce projet personnel consiste en une application de casino développée en Java avec JavaFX,
+            proposant plusieurs jeux dont le Blackjack et le Pile ou Face.
+            Réalisé entièrement en solo, ce projet m’a permis de travailler sur la logique de jeu,
+            la gestion d’un solde joueur et la création d’interfaces graphiques interactives.
+        </p>
+
+        <p>
+            Le solde des joueurs est sauvegardé dans un fichier texte.
+            Avec le recul et mes connaissances actuelles, j’aurais pu utiliser une base de données
+            embarquée comme Apache Derby afin d’améliorer la persistance des données.
+            Le projet a été mis en pause mais reste très formateur techniquement.
+        </p>
+
+        <p><strong>Compétences :</strong> Java, JavaFX </p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/casino/menulogin.png"
+                     alt="Menu de connexion du casino"
+                     class="project-image">
+                <p>Menu de connexion permettant au joueur d’accéder à l’application.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/casino/blackjack.png"
+                     alt="Jeu de Blackjack JavaFX"
+                     class="project-image">
+                <p>Interface graphique du jeu de Blackjack développée en JavaFX.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/casino/fonctionpileouface.png"
+                     alt="Fonction pile ou face Java"
+                     class="project-image">
+                <p>
+                    Fonction Java utilisée pour le jeu de Pile ou Face, générant aléatoirement
+                    le résultat et le comparant au choix du joueur.
+                </p>
+            </div>
+        </div>
+        <a href="https://github.com/NahelDE/casinojava" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
+<div id="modal-rogueabyss" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+
+        <h3>RogueAbyss</h3>
+
+        <p>
+            RogueAbyss est un projet personnel de roguelike 2D développé en Java avec Swing.
+            Le jeu est encore en phase de développement early, permettant actuellement de se déplacer sur la map générée
+            et de combattre des ennemis simples (des carrés rouges).
+        </p>
+        <p>
+            La map est générée aléatoirement à chaque partie, et certaines salles prédéfinies sont reliées par des couloirs.
+            Le gameplay roguelike complet n’est pas encore implémenté, mais le projet m’a déjà permis de travailler
+            sur la POO, la génération procédurale et la gestion d’éléments graphiques avec Swing.
+        </p>
+
+        <p><strong>Compétences :</strong> Java, Swing</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/rogueabyss/map.png"
+                     alt="Vue de la map générée du RogueAbyss"
+                     class="project-image">
+                <p>Map générée aléatoirement à chaque partie, connectant les salles prédéfinies.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/rogueabyss/closeupPersoEnnemi.png"
+                     alt="Combat contre un carré rouge RogueAbyss"
+                     class="project-image">
+                <p>Combat basique contre un carré rouge représentant un ennemi.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/rogueabyss/fonction.png"
+                     alt="Extrait de la fonction makeCorridor()"
+                     class="project-image">
+                <p>
+                    Fonction <code>makeCorridor()</code> qui relie les salles prédéfinies pour générer les couloirs de la carte.
+                </p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/rogueabyss" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
+<div id="modal-currency" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+
+        <h3>Simple Currency Exchange</h3>
+
+        <p>
+            Ce projet personnel consiste en une application web développée avec Flask,
+            permettant de convertir des montants d’une devise à une autre en utilisant une API externe.
+        </p>
+
+        <p>
+            Actuellement, la fonction <code>all_currency_in_euro()</code> récupère les taux de change par rapport à l’euro
+            et les affiche sous forme lisible pour l’utilisateur. Par exemple, on peut voir combien vaut le dollar en euro,
+            avec des taux à jour grâce à l’API.
+            L’interface utilisateur et certaines fonctionnalités comme choisir la devise de départ et d’arrivée
+            sont encore en cours de développement.
+        </p>
+
+        <p><strong>Compétences :</strong> Python, Flask, HTML/Template Jinja2</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/currency/example.png"
+                     alt="Exemple de conversion de devises avec l'API"
+                     class="project-image">
+                <p>Exemple de conversion : affichage des taux en euro pour chaque devise.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/currency/fonction.png"
+                     alt="Extrait de la fonction all_currency_in_euro()"
+                     class="project-image">
+                <p>Extrait du code Flask qui récupère les taux via l’API et les affiche dans la page web.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/simple-currency-exchange" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
+<div id="modal-portfolio" class="project-modal">
+    <div class="project-modal-content">
+        <span class="close-project">&times;</span>
+
+        <h3>Portfolio Personnel</h3>
+
+        <p>
+            Ce projet est mon portfolio personnel, développé avec HTML et CSS, et enrichi avec un peu de JavaScript.
+            J’y ai implémenté des modales interactives pour chaque projet et un système de contact fonctionnel avec EmailJS.
+        </p>
+
+        <p>
+            Ce site m’a permis de découvrir et pratiquer la gestion des événements en JavaScript
+            et l’intégration de services externes comme EmailJS pour l’envoi de mails.
+            Le site est hébergé sur GitHub Pages, ce qui m’a également permis d’apprendre le déploiement de sites statiques.
+        </p>
+
+        <p><strong>Compétences :</strong> HTML, CSS, JavaScript (modales), EmailJS, GitHub Pages</p>
+
+        <div class="project-images">
+            <div class="project-item">
+                <img src="assets/images/portfolio/hautdepage.png"
+                     alt="Haut de la page du portfolio"
+                     class="project-image">
+                <p>Vue de l’accueil et du header du portfolio.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/portfolio/modale.png"
+                     alt="Exemple de modale sur un projet"
+                     class="project-image">
+                <p>Exemple de modale interactive pour un projet présenté sur le portfolio.</p>
+            </div>
+
+            <div class="project-item">
+                <img src="assets/images/portfolio/fonction.png"
+                     alt="Extrait de la fonction JS pour ouvrir les modales"
+                     class="project-image">
+                <p>Fonction JavaScript permettant d’ouvrir les modales lorsque l’utilisateur clique sur un projet.</p>
+            </div>
+        </div>
+
+        <a href="https://github.com/NahelDE/portfolio" target="_blank" class="btn">Voir sur GitHub</a>
+    </div>
+</div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>

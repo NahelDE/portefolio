@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Ouvrir la modale quand on clique sur un projet
 document.querySelectorAll(".project-card").forEach(card => {
     card.addEventListener("click", () => {
-        const modalId = card.getAttribute("data-modal"); // récupère l'id depuis data-modal
+        const modalId = card.dataset.modal;
         if(modalId) {
             const modal = document.getElementById(modalId);
             if(modal) modal.style.display = "block";
