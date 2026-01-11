@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahel Delille - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">IUT Projects</a></li>
+        <li><a href="#personnal_projects">Personal Projects</a></li>
+
+        <li class="lang-switch">
+            <a href="index.html" aria-label="Switch to French">
+                <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="FR" class="flag-icon">
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1>Nahel Delille</h1>
+    <p>Second-year Computer Science student</p>
+
+    <div class="hero-links">
+        <a href="assets/pdf/NahelDELILLE_CV_ENG.pdf" class="btn" aria-label="Download my CV">Download my CV</a>
+
+        <a href="https://github.com/NahelDE" target="_blank" class="btn icon-text-btn" aria-label="GitHub link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+            <span>GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/nahel-delille-7a0259386/" target="_blank"
+           class="btn icon-text-btn" aria-label="LinkedIn link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+            <span>LinkedIn</span>
+        </a>
+    </div>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Nahel Delille, a second-year Computer Science student at IUT de Lens.
+            Passionate about development in all its forms, I explore different languages
+            and technical environments such as Java, PHP, JavaScript, SQL, and HTML/CSS.
+            Serious, curious, and motivated, I aim to participate in real projects to
+            deepen my skills and gain solid professional experience.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-icons">
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"><span>PHP</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"><span>PostgreSQL</span></div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></div>
+        </div>
+    </section>
+
+    <section>
+        <!-- IUT Projects -->
+        <h2 class="projects-category" id="projects">IUT Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card" data-modal="modal-motown">
+                <h4>Motown Avenue</h4>
+                <p>Website developed in a team of 4 MMI students as part of the Web Marathon.</p>
+                <img src="assets/images/motown/homepage.png" alt="Motown Avenue homepage preview" class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-soulmates">
+                <h4>Soûl-Mates</h4>
+                <p>Quiz website created by a team of 4 students as part of a class project.</p>
+                <img src="assets/images/soul-mates/homepage.png" alt="Soûl-Mates MSI homepage preview" class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-pacman">
+                <h4>Pacman Java</h4>
+                <p>Pacman game developed in a group of 4 students as part of an IUT project, entirely in Java.</p>
+                <img src="assets/images/pacman/homepage.png" alt="Pacman homepage preview" class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-lensymphony">
+                <h4>Lensymphony</h4>
+                <p>Music synthesizer developed in Java with an associated website to generate music online. Team project of 4.</p>
+                <img src="assets/images/lensymphony/homepage.png" alt="Web Lensymphony homepage preview" class="project-thumb">
+            </div>
+        </div>
+        <br>
+        <!-- Personal Projects -->
+        <h2 class="projects-category"  id="personnal_projects">Personal Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-modal="modal-casino">
+                <h4>JavaFX Casino</h4>
+                <p>Casino application in JavaFX with Blackjack and Heads or Tails, developed solo.</p>
+                <img src="assets/images/casino/menulogin.png"
+                     alt="JavaFX Casino login menu"
+                     class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-rogueabyss">
+                <h4>RogueAbyss</h4>
+                <p>2D Roguelike in Java Swing (in progress).</p>
+                <img src="assets/images/rogueabyss/map.png"
+                     alt="RogueAbyss map preview"
+                     class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-currency">
+                <h4>Simple Currency Exchange</h4>
+                <p>Flask web app to convert amounts from one currency to another via an API (in progress).</p>
+                <img src="assets/images/currency/example.png"
+                     alt="Currency conversion example"
+                     class="project-thumb">
+            </div>
+
+            <div class="project-card" data-modal="modal-portfolio">
+                <h4>Personal Portfolio</h4>
+                <p>My web portfolio developed with HTML, CSS, and JavaScript.</p>
+                <img src="assets/images/portfolio/hautdepage.png"
+                     alt="Portfolio top page"
+                     class="project-thumb">
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-contact">
+            <a href="mailto:nahel.delille1507@gmail.com" class="contact-link mail-icon">
+                <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/mail.svg" alt="Email" class="contact-icon">
+                <span>nahel.delille1507@gmail.com</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nahel-delille-7a0259386/" target="_blank" class="contact-link">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="contact-icon">
+                <span>My LinkedIn</span>
+            </a>
+
+            <a href="tel:+33788250329" class="contact-link phone-icon">
+                <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/phone.svg" alt="Phone" class="contact-icon">
+                <span>+33 7 88 25 03 29</span>
+            </a>
+        </div>
+
+        <div class="footer-btn">
+            <button class="btn" id="openContactForm">Contact Me</button>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Nahel Delille</p>
+    </div>
+</footer>
+
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <h3 class="modal-title">Contact Me</h3>
+
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
+            <div class="modal-btn-wrapper">
+                <button type="submit" class="btn">Send</button>
+            </div>
+        </form>
+
+        <p id="contactStatus" class="status-msg"></p>
+    </div>
+</div>

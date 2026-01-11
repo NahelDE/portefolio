@@ -27,10 +27,30 @@ body {
 }
 
 .navbar ul {
-    list-style: none;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li.lang-switch {
+    position: absolute;
+    right: 1rem;
+    margin: 0;
+}
+
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
 }
 
 .navbar a {
@@ -592,5 +612,7 @@ footer {
 }
 
 section {
-    scroll-margin-top: 60px; /* ou la hauteur de ta navbar + un peu de marge */
+    scroll-margin-top: 60px;
 }
+
+
